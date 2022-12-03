@@ -137,6 +137,21 @@ const Gallery = () => (
           This adorable onesie is perfect for the baby who loves to party! The playful design features a bottle of milk with the words "Poppin' Bottles”. It's the perfect outfit for a special occasion, or just for showing off your baby's fun and lively personality.
         </p>
       </div>
+      <div style={{ width: '300px', margin: '0 1rem' }}>
+        <img
+          src="./images/allergies.png"
+          alt="allergies"
+          style={{
+            height: '200px',
+            width: '200px',
+            objectFit: 'cover',
+            margin: '1rem',
+          }}
+        />
+        <p>
+          This shirt is the perfect way to let everyone know that you're not contagious - you're just allergic! The playful design is the perfect outfit for anyone who wants to spread some laughs and let people know that they don't need to worry about catching anything from you.
+        </p>
+      </div>
     </div>
   </div>
 );
