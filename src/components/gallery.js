@@ -13,7 +13,7 @@ const Gallery = () => (
     <p>
       Beauty is a light in the heart.
     </p>
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       <img
         src="./images/beauty1.png"
         alt="inspiration beauty 1"
@@ -48,7 +48,7 @@ const Gallery = () => (
     <p>
       Peace is found within oneself
     </p>
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       <img
         src="./images/peace1.png"
         alt="inspiration peace 1"
@@ -73,7 +73,7 @@ const Gallery = () => (
     <p>
       Hope is the foundation of courage
     </p>
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       <img
         src="./images/hope1.png"
         alt="inspiration hope 1"
@@ -106,7 +106,7 @@ const Gallery = () => (
       />
     </div>
     <h3>T-Shirts</h3>
-    <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+    <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       <div style={{ width: '300px' }}>
         <img
           src="./images/bass_shirt.png"

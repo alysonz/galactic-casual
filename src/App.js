@@ -23,8 +23,9 @@ function App() {
         style={{
           position: 'absolute',
           color: 'white',
-          fontSize: '2rem',
+          fontSize: '1.5rem',
           fontWeight: 800,
+          margin: '20px',
         }}
       >
         <h1>Galactic Casual</h1>
