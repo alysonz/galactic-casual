@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import ImageGallery from './components/gallery';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div         
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center'
+      }}
+    >
+      <img
+        src="./images/banner.png"
+        alt="banner"
+        style={{
+          width: '100%',
+          height: '300px',
+          objectFit: 'cover',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          color: 'white',
+          fontSize: '2rem',
+          fontWeight: 800,
+        }}
+      >
+        <h1>Galactic Casual</h1>
+        <p>Designs, custom creations and curios for the known universe.</p>
+      </div>
+      <ImageGallery />
     </div>
   );
 }
